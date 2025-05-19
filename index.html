@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/page2.html">Other page</a>
+    </nav>
+    <main>
+      <h1>Home page</h1>
+    </main>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mango Code - Обучающий сайт по HTML и CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="mango-header">
+      <div class="container">
+        <div class="logo">
+          <img src="mango.webp" alt="Mango Code" />
+          <h1>Mango <span>Code</span></h1>
+        </div>
+        <nav>
+          <ul class="mango-menu">
+            <li><a href="#" class="active">Главная</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Проекты</a></li>
+            <li><a href="#">О нас</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mango-main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h2>Научись создавать сайты со вкусом манго!</h2>
+            <p>Простые и сочные уроки по HTML и CSS для начинающих</p>
+            <a href="#" class="mango-button">Начать обучение</a>
+          </div>
+          <div class="hero-image">
+            <img src="images/mango-bg.png" alt="Манго и код" />
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <h2>Почему стоит учиться с нами?</h2>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">🍹</div>
+              <h3>Сочные уроки</h3>
+              <p>Никакой сухой теории - только сочная практика с примерами</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🏝️</div>
+              <h3>Тропический подход</h3>
+              <p>Учитесь в расслабленной атмосфере тропического отдыха</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🧩</div>
+              <h3>Игровое обучение</h3>
+              <p>
+                Осваивайте веб-разработку через интересные задания и челленджи
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lessons">
+        <div class="container">
+          <h2>Популярные уроки</h2>
+          <div class="lessons-tabs">
+            <button class="tab-button active">HTML</button>
+            <button class="tab-button">CSS</button>
+            <button class="tab-button">Проекты</button>
+          </div>
+          <div class="lessons-list">
+            <article class="lesson-card">
+              <div class="lesson-badge">Новичок</div>
+              <h3>Создаем первую страницу</h3>
+              <p>
+                Основы HTML: теги, структура документа, заголовки и параграфы
+              </p>
+              <a href="#" class="mango-button small">Изучить</a>
+            </article>
+            <article class="lesson-card">
+              <div class="lesson-badge">Новичок</div>
+              <h3>Стилизуем наш сайт</h3>
+              <p>Основы CSS: селекторы, цвета, шрифты и отступы</p>
+              <a href="#" class="mango-button small">Изучить</a>
+            </article>
+            <article class="lesson-card">
+              <div class="lesson-badge">Средний</div>
+              <h3>Flexbox - магия выравнивания</h3>
+              <p>Осваиваем современные способы верстки с Flexbox</p>
+              <a href="#" class="mango-button small">Изучить</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mango-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>Mango Code</h3>
+            <p>
+              Сочные уроки по веб-разработке для начинающих. Учитесь с
+              удовольствием!
+            </p>
+          </div>
+          <div class="footer-links">
+            <h3>Быстрые ссылки</h3>
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">Проекты</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Соцсети</h3>
+            <div class="social-icons">
+              <a href="#">📘</a>
+              <a href="#">📸</a>
+              <a href="#">🐦</a>
+              <a href="#">🎬</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>© 2023 Mango Code. Все права защищены. Сделано с ❤️ и 🥭</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

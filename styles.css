@@ -449,3 +449,43 @@ body {
       margin-top: 20px;
   }
 }
+.mango-button {
+  display: inline-block;
+  background-color: var(--mango-orange);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  border: 2px solid var(--mango-orange); /* Добавляем границу того же цвета */
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(255, 140, 66, 0.4);
+}
+.tab-button {
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: 2px solid var(--mango-orange);
+  background-color: var(--mango-orange); /* Делаем фон оранжевым */
+  color: white; /* Меняем цвет текста на белый */
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tab-button:hover {
+  background-color: var(--mango-dark-orange); /* Темно-оранжевый при наведении */
+  border-color: var(--mango-dark-orange);
+}
+
+.tab-button.active {
+  background-color: var(--mango-dark-orange); /* Темно-оранжевый для активной */
+  border-color: var(--mango-dark-orange);
+  color: white;
+}
+.mango-button.small {
+  padding: 8px 20px;
+  font-size: 16px;
+  border: 2px solid var(--mango-orange); /* Добавляем границу */
+}
